@@ -1,0 +1,40 @@
+group 'com.dimensionsapart.destinations'
+version '1.0'
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "gradle.plugin.org.spongepowered:spongegradle:0.6"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.spongepowered.plugin'
+apply plugin: 'org.spongepowered.meta'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+sponge.plugin {
+    id = 'core'
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'sponge'
+        url = 'http://repo.spongepowered.org/maven'
+    }
+}
+
+dependencies {
+    compile "org.spongepowered:spongeapi:5.0.0-20160815.171650-98"
+}
+sourceSets {
+    main.java.srcDirs += 'src/main/java'
+}

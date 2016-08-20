@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.spongepowered:spongeapi:5.0.0-20160815.171650-98">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/5.0.0-20160815.171650-98/40fc81540f2b13f3befbfa92735be164d4470fa1/spongeapi-5.0.0-20160815.171650-98.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spongepowered/spongeapi/5.0.0-20160815.171650-98/8ddfc8a0f27a366ec5f7733ff5bc079b952872b7/spongeapi-5.0.0-20160815.171650-98-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
